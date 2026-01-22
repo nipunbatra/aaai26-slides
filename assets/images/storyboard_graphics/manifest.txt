@@ -1,0 +1,28 @@
+Deck: storyboard_graphics
+Generated: 2026-01-22T17:18:29.530965
+Preset: slide
+Aspect Ratio: 16:9
+Size: 1080p
+
+Slides:
+
+[1] urban_rural_equity
+Prompt: Urban city skyline with many sensor icons vs rural village with zero sensors, both covered by same red pollution cloud. Split screen comparison showing unequal monitoring coverage. Clean infographic style, blue and orange colors.
+
+[2] budget_constraint
+Prompt: Simple diagram showing budget constraint: dollar signs and sensor icons, with a budget cap bar showing limited resources. Clean infographic showing that placement matters more than count. White background, green and red colors.
+
+[3] problem_definition
+Prompt: Map region with pollution heatmap and several question mark icons scattered across, representing where to place k sensors. Clean diagram style showing the sensor placement problem.
+
+[4] mi_concept_network
+Prompt: Diagram showing sensors with arrows connecting to entire field, representing mutual information - each sensor provides information about the whole region. Network-style visualization, blue nodes and lines.
+
+[5] gdmi_pipeline_steps
+Prompt: Three step pipeline diagram: 1) Predict values at proposed locations 2) Impute as if observed 3) Recompute uncertainty. Arrows connecting the steps. Clean flowchart style.
+
+[6] before_after_uncertainty
+Prompt: Before and after comparison: Left shows high uncertainty heatmap (red/orange), Right shows reduced uncertainty after sensor placement (blue/green). Side by side with arrow between.
+
+[7] policy_impact_flow
+Prompt: Flow diagram: Sensors icon -> ML Model icon -> Policy document icon -> Health/people icon. Showing the impact pipeline from measurement to health outcomes. Clean infographic style.

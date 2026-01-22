@@ -1,0 +1,9 @@
+# Generated files
+slides.pdf
+slides.html
+
+# OS files
+.DS_Store
+
+# Node
+node_modules/
