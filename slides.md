@@ -573,7 +573,7 @@ But pollution burden is **not uniform**
 
 <div class="col">
 
-<img src="assets/images/equity_placement_20260122_183310.png" style="max-height:380px;" />
+<img src="assets/images/equity_placement_v2_20260122_225444.png" style="max-height:380px;" />
 
 </div>
 
