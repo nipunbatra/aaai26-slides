@@ -454,15 +454,15 @@ Does GD-MI actually work?
 
 ---
 
-# Experiment 1: Regional Validation (Madhya Pradesh)
+# Experiment 1: Regional Validation
 
-> Small region where **Greedy MI is tractable** — can we match it?
+> **Madhya Pradesh** — a central Indian state (~size of Germany, $n$=308 candidates)
 
 <div class="cols">
 
 <div class="col">
 
-<img src="assets/images/case_study_MP.png" style="max-height:380px;" />
+<img src="assets/images/case_study_MP.png" style="max-height:340px;" />
 
 </div>
 
@@ -470,14 +470,14 @@ Does GD-MI actually work?
 
 **Results (k=9 sensors):**
 
-| Method | RMSE ↓ |
-|:-------|-------:|
-| Random | 7.2 |
-| MaxVar | 6.3 |
-| **GD-MI (ours)** | **5.8** |
-| Greedy MI | 5.6 |
+| Method | RMSE ↓ | Time |
+|:-------|-------:|-----:|
+| Random | 7.2 | <1s |
+| MaxVar | 6.3 | 2s |
+| **GD-MI** | **5.8** | **8s** |
+| Greedy MI | 5.6 | 47s |
 
-GD-MI closes **83%** of the gap to Greedy MI!
+GD-MI: **83%** of Greedy MI quality, **6× faster**
 
 </div>
 
