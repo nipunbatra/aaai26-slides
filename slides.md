@@ -95,10 +95,22 @@ style: |
 
 **Gradient-Based Mutual Information Maximization**
 
-Zeel B Patel, Vinayak Rana, Nipun Batra
-IIT Gandhinagar
+<div style="display:flex; justify-content:center; gap:3rem; margin:1.5rem 0;">
+<div style="text-align:center;">
+<img src="assets/images/authors/zeel.png" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
+<div style="font-size:0.7em; margin-top:0.3rem;">Zeel B Patel</div>
+</div>
+<div style="text-align:center;">
+<img src="assets/images/authors/vinayak.jpg" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
+<div style="font-size:0.7em; margin-top:0.3rem;">Vinayak Rana</div>
+</div>
+<div style="text-align:center;">
+<img src="assets/images/authors/nipun.jpg" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
+<div style="font-size:0.7em; margin-top:0.3rem;">Nipun Batra</div>
+</div>
+</div>
 
-AAAI 2026 · AI for Social Impact
+IIT Gandhinagar · AAAI 2026 · AI for Social Impact
 
 ---
 
