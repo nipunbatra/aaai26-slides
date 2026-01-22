@@ -86,6 +86,10 @@ style: |
   .col { flex: 1; }
   .col.small { flex: 0.8; }
   .col img { max-width: 100%; height: auto; }
+  .author-row { display: flex; justify-content: center; gap: 3rem; margin: 1.5rem 0; }
+  .author { text-align: center; }
+  .author img { width: 100px !important; height: 100px !important; border-radius: 50%; object-fit: cover; }
+  .author-name { font-size: 0.7em; margin-top: 0.3rem; }
 ---
 
 <!-- _class: lead -->
@@ -95,18 +99,18 @@ style: |
 
 **Gradient-Based Mutual Information Maximization**
 
-<div style="display:flex; justify-content:center; gap:3rem; margin:1.5rem 0;">
-<div style="text-align:center;">
-<img src="assets/images/authors/zeel.png" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
-<div style="font-size:0.7em; margin-top:0.3rem;">Zeel B Patel</div>
+<div class="author-row">
+<div class="author">
+<img src="assets/images/authors/zeel.png" />
+<div class="author-name">Zeel B Patel</div>
 </div>
-<div style="text-align:center;">
-<img src="assets/images/authors/vinayak.jpg" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
-<div style="font-size:0.7em; margin-top:0.3rem;">Vinayak Rana</div>
+<div class="author">
+<img src="assets/images/authors/vinayak.jpg" />
+<div class="author-name">Vinayak Rana</div>
 </div>
-<div style="text-align:center;">
-<img src="assets/images/authors/nipun.jpg" style="width:100px; height:100px; border-radius:50%; object-fit:cover;" />
-<div style="font-size:0.7em; margin-top:0.3rem;">Nipun Batra</div>
+<div class="author">
+<img src="assets/images/authors/nipun.jpg" />
+<div class="author-name">Nipun Batra</div>
 </div>
 </div>
 
