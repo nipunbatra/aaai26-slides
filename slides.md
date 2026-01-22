@@ -86,18 +86,16 @@ style: |
   .col { flex: 1; }
   .col.small { flex: 0.8; }
   .col img { max-width: 100%; height: auto; }
-  .author-row { display: flex; justify-content: center; gap: 3rem; margin: 1.5rem 0; }
+  .author-row { display: flex; justify-content: center; gap: 2.5rem; margin: 1.2rem 0; }
   .author { text-align: center; }
-  .author img { width: 100px !important; height: 100px !important; border-radius: 50%; object-fit: cover; }
-  .author-name { font-size: 0.7em; margin-top: 0.3rem; }
+  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 4px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+  .author-name { font-size: 0.75em; margin-top: 0.5rem; }
 ---
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Scalable Air-Quality Sensor Placement
-
-**Gradient-Based Mutual Information Maximization**
+# Scalable Sensor Placement for Air Quality via Gradient-Based Optimization of Mutual Information
 
 <div class="author-row">
 <div class="author">
