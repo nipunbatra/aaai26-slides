@@ -126,9 +126,14 @@ IIT Gandhinagar · AAAI 2026 · AI for Social Impact
 
 # Current Air Quality Monitoring in India
 
-![width:600px center](assets/images/india_pm_with_stations.png)
+![width:550px center](assets/images/india_pm_with_stations.png)
 
-**~600** CPCB stations for **1.4 billion** people
+| Metric | Value |
+|:-------|------:|
+| CPCB stations | ~600 |
+| Population | 1.4 billion |
+| People per station | **2.3 million** |
+| Area per station | **5,400 km²** |
 
 ---
 
@@ -285,20 +290,16 @@ $$\max_{\color{#00a651}{X_{\text{new}}}} I \;\equiv\; \min_{\color{#00a651}{X_{\
 
 # Acquisition 3: Greedy MI (Standard Approach)
 
-> **Greedy approximation:** Select sensors one-by-one, maximizing MI gain
+> Select sensors **one-by-one**, each maximizing MI gain
 
-$$\color{#00a651}{x^*} = \arg\max_{x \in \color{#00a651}{X_{\text{pool}}}} I(\color{#4a90d9}{Y_t}; y_x \mid X_c, Y_c, \text{already selected})$$
+$$\color{#00a651}{x^*} = \arg\max_{x \in \color{#00a651}{X_{\text{pool}}}} I(\color{#4a90d9}{Y_t}; y_x \mid X_c, Y_c, \text{selected})$$
 
-**Algorithm:**
-1. For each candidate $x \in X_{\text{pool}}$, compute MI gain
-2. Select best candidate, add to context
-3. Repeat $k$ times
+**Algorithm:** For each of $k$ rounds, evaluate all $n$ candidates → pick best
 
 **Complexity:** $O(n \cdot k)$ evaluations
 
-| $n$ (candidates) | $k$ (sensors) | Evaluations |
-|:----------------:|:-------------:|:-----------:|
-| 100 | 10 | 1,000 |
+| $n$ (candidates) | $k$ (budget) | Evaluations |
+|:----------------:|:------------:|:-----------:|
 | 1,000 | 50 | 50,000 |
 | **20,000** | **100** | **2,000,000** |
 
