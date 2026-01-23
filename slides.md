@@ -527,28 +527,11 @@ But pollution burden is **not uniform**
 
 # Future: Equity-Aware Placement
 
-<div class="cols">
-
-<div class="col">
-
-<img src="assets/images/equity_india_20260122_231348.png" style="max-height:380px;" />
-
-</div>
-
-<div class="col">
+![width:750px center](assets/images/equity_factors_panel_20260123_121245.png)
 
 $$\mathcal{L}_{\text{fair}} = \mathbb{E}\Big[w(\color{#4a90d9}{x_t}) \cdot \text{Var}(\color{#4a90d9}{y_t})\Big]$$
 
-Weight $w(\cdot)$ by:
-- Population density
-- Vulnerability index
-- Healthcare access
-
-> Same framework — different objective!
-
-</div>
-
-</div>
+Weight $w(\cdot)$ by different factors — **same GD-MI framework, different objectives!**
 
 ---
 
