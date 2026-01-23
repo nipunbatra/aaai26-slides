@@ -88,7 +88,7 @@ style: |
   .col img { max-width: 100%; height: auto; }
   .author-row { display: flex; justify-content: center; gap: 2.5rem; margin: 1.2rem 0; }
   .author { text-align: center; }
-  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 4px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 3px solid white; }
   .author-name { font-size: 0.75em; margin-top: 0.5rem; }
 ---
 
