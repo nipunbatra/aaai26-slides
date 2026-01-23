@@ -555,14 +555,9 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 ---
 
-# Sustainability Lab @ IITGN
+# Sustainability Lab @ IIT Gandhinagar
 
-**AI for environmental and health monitoring**
-
-- Air quality sensing (this work)
-- Energy disaggregation (NILM)
-- Health sensing from wearables
-- Satellite imagery for sustainability
+![width:950px center](assets/images/sustainability_lab_prompt_subtitles_generated_20251217_162815.png)
 
 https://sustainability-lab.github.io
 
