@@ -430,14 +430,14 @@ Does GD-MI actually work?
 
 **Results (k=9 sensors):**
 
-| Method | RMSE ↓ | Time |
-|:-------|-------:|-----:|
-| Random | 7.2 | <1s |
-| MaxVar | 6.3 | 2s |
-| **GD-MI** | **5.8** | **8s** |
-| Greedy MI | 5.6 | 47s |
+| Method | RMSE ↓ |
+|:-------|-------:|
+| Random | 7.2 |
+| MaxVar | 6.3 |
+| **GD-MI** | **5.8** |
+| Greedy MI | 5.6 |
 
-GD-MI: **83%** of Greedy MI quality, **6× faster**
+GD-MI achieves **83%** of Greedy MI quality!
 
 </div>
 
@@ -496,6 +496,16 @@ GD-MI: **83%** of Greedy MI quality, **6× faster**
 </div>
 
 </div>
+
+---
+
+# Scalability: GD-MI vs Greedy MI
+
+![width:650px center](assets/images/scalability.png)
+
+- Greedy MI: **runtime grows** with pool size $n$
+- GD-MI: **constant time** regardless of $n$
+- At $n = 20,000$: GD-MI is **~100× faster**
 
 ---
 
