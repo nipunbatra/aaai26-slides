@@ -99,15 +99,15 @@ style: |
 
 <div class="author-row">
 <div class="author">
-<img src="assets/images/authors/zeel.png" />
+<img src="assets/images/authors/zeel_white.png" />
 <div class="author-name">Zeel B Patel</div>
 </div>
 <div class="author">
-<img src="assets/images/authors/vinayak.jpg" />
+<img src="assets/images/authors/vinayak_white.png" />
 <div class="author-name">Vinayak Rana</div>
 </div>
 <div class="author">
-<img src="assets/images/authors/nipun.jpg" />
+<img src="assets/images/authors/nipun_white.png" />
 <div class="author-name">Nipun Batra</div>
 </div>
 </div>
@@ -267,11 +267,11 @@ Repeat $k$ times, each time adding the selected sensor to context.
 
 # The MI Objective: What We Want to Maximize
 
-> **Mutual Information:** How much does knowing $Y_{\text{new}}$ tell us about <span class="blue">$Y_t$</span>?
+> **Mutual Information:** How much does knowing $Y_{\text{new}}$ reduce uncertainty about <span class="blue">$Y_t$</span>?
 
 $$I(\color{#4a90d9}{Y_t}; Y_{\text{new}} \mid X_c, Y_c) = \underbrace{H(\color{#4a90d9}{Y_t} \mid X_c, Y_c)}_{\text{uncertainty BEFORE}} - \underbrace{H(\color{#4a90d9}{Y_t} \mid X_c, Y_c, Y_{\text{new}})}_{\text{uncertainty AFTER}}$$
 
-**Why MI is the right objective:**
+**Reading this:** *"Given existing sensors $(X_c, Y_c)$, how much does adding new sensors reduce our uncertainty about the target region?"*
 
 | | MaxVar | MI |
 |:--|:------:|:--:|
