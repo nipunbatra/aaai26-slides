@@ -88,7 +88,7 @@ style: |
   .col img { max-width: 100%; height: auto; }
   .author-row { display: flex; justify-content: center; gap: 2.5rem; margin: 1.2rem 0; }
   .author { text-align: center; }
-  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 3px solid white; }
+  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 3px solid #23373b; }
   .author-name { font-size: 0.75em; margin-top: 0.5rem; }
 ---
 
@@ -280,11 +280,13 @@ $$I(\color{#4a90d9}{Y_t}; Y_{\text{new}} \mid X_c, Y_c) = \underbrace{H(\color{#
 
 $$\max_{\color{#00a651}{X_{\text{new}}}} I \;\equiv\; \min_{\color{#00a651}{X_{\text{new}}}} H(\color{#4a90d9}{Y_t} \mid \text{all data})$$
 
+**Problem:** Exact optimization requires searching $\binom{n}{k}$ subsets — combinatorially explosive!
+
 ---
 
 # Acquisition 3: Greedy MI (Standard Approach)
 
-> Select sensors **one-by-one**, each maximizing MI gain
+> Since exact MI is intractable, use **greedy approximation**: select one sensor at a time
 
 $$\color{#00a651}{x^*} = \arg\max_{x \in \color{#00a651}{X_{\text{pool}}}} I(\color{#4a90d9}{Y_t}; y_x \mid X_c, Y_c, \text{selected})$$
 
@@ -310,22 +312,6 @@ $$\color{#00a651}{x^*} = \arg\max_{x \in \color{#00a651}{X_{\text{pool}}}} I(\co
 **MaxVar** scales but gives poor quality
 
 Can we get **both**?
-
----
-
-# Our Contributions
-
-1. **GD-MI** — First gradient-based approach to MI-optimal sensor placement
-   - Continuous optimization instead of discrete search
-   - Runtime **independent of candidate pool size**
-
-2. **Scalability** — Enables continental-scale deployment
-   - Greedy MI: infeasible at $n > 1,000$
-   - GD-MI: runs in minutes for $n = 20,000+$
-
-3. **Validation** — Comprehensive experiments on India air quality
-   - Matches Greedy MI quality where tractable
-   - **4% better** than baselines at national scale
 
 ---
 
