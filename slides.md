@@ -563,6 +563,34 @@ https://sustainability-lab.github.io
 
 ---
 
+# Join Us in Shaping a Sustainable Future
+
+<div class="cols">
+<div class="col">
+
+**Recent Recognition**
+- 2025: Test of Time Award
+- 2024: MSR PhD Award
+- 2024: Heidelberg Laureate
+- 2023: Fulbright-Nehru
+
+**Publishing:** IMWUT, KDD, CSCW
+
+</div>
+<div class="col">
+
+**Alumni Placements**
+- Google DeepMind (Predoc)
+- Microsoft (Applied Scientist)
+- Carnegie Mellon (MS/PhD)
+- Caltech, UC San Diego (MS)
+- ETH Zurich, UMass Amherst (PhD)
+
+</div>
+</div>
+
+---
+
 # Main Takeaways
 
 1. **GD-MI** = First gradient-based MI maximization for sensor placement
