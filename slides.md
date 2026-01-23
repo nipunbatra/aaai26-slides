@@ -363,23 +363,6 @@ $$\mathcal{L} = \mathbb{E}_{x_t \in \color{#4a90d9}{X_t}}\Big[\text{Var}(\color{
 
 ---
 
-# Why GD-MI Works
-
-**Same objective, different optimization:**
-
-| | Greedy MI | GD-MI |
-|:--|:---------:|:-----:|
-| **Objective** | Maximize MI | Maximize MI |
-| **Variables** | Discrete indices | Continuous $(x, y)$ |
-| **Search** | Exhaustive | Gradient-based |
-| **Runtime** | $O(n \cdot k)$ | $O(I)$ — **independent of $n$** |
-
-**Key insight:** Sensor coordinates are just numbers — we can differentiate through them!
-
-> Both methods optimize MI, but GD-MI escapes the discrete bottleneck
-
----
-
 # Surrogate Model: Why Neural Processes?
 
 GD-MI needs a model that provides:
