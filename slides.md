@@ -161,7 +161,7 @@ No data → No policy → No protection
 
 # Problem 3: India Lags Behind
 
-| Country | Stations | People/Station | Stations/1000 km² |
+| Country | Stations ↑ | People/Station ↓ | Stations/1000 km² ↑ |
 |---------|----------:|--------------:|-----------------:|
 | USA | 4,800 | 69K | 0.49 |
 | China | 5,000 | 280K | 0.52 |
@@ -266,9 +266,8 @@ Repeat $k$ times, each time adding the selected sensor to context.
 
 | Pros | Cons |
 |:-----|:-----|
-| Fast: $O(k)$ | Selects **independently** |
-| Intuitive | Ignores **interactions** |
-| | Tends to **cluster** |
+| Fast: $O(k)$ | Doesn't maximize information gain |
+| Intuitive | with minimum number of sensors |
 
 ---
 
@@ -283,8 +282,7 @@ $$I(\color{#4a90d9}{Y_t}; Y_{\text{new}} \mid X_c, Y_c) = \underbrace{H(\color{#
 | | MaxVar | MI |
 |:--|:------:|:--:|
 | Optimizes for | Single point | <span class="blue">Entire target region</span> |
-| Selection | Independent | **Joint** |
-| Redundancy | Ignores | Penalizes |
+| Selection | Greedy | **Joint** |
 
 $$\max_{\color{#00a651}{X_{\text{new}}}} I \;\equiv\; \min_{\color{#00a651}{X_{\text{new}}}} H(\color{#4a90d9}{Y_t} \mid \text{all data})$$
 
@@ -363,7 +361,6 @@ GD-MI: Follow gradient
 | | Random | MaxVar | Greedy MI | GD-MI |
 |:--|:------:|:------:|:---------:|:-----:|
 | Considers interactions | ❌ | ❌ | ✓ | ✓ |
-| Avoids redundancy | ❌ | ❌ | ✓ | ✓ |
 | Scales to India | ✓ | ✓ | ❌ | ✓ |
 
 ---
@@ -383,6 +380,8 @@ $$\min_{\color{#00a651}{X_{\text{new}}}} \; \mathbb{E}_{x_t \in \color{#4a90d9}{
 | 3 | Compute uncertainty over <span class="blue">$X_t$</span> (target) |
 | 4 | Backpropagate → update <span class="green">$X_{\text{new}}$</span> |
 | 5 | Repeat until convergence |
+
+> **Key:** Model parameters are **frozen** — only sensor locations <span class="green">$X_{\text{new}}$</span> are optimized
 
 ---
 
@@ -526,16 +525,14 @@ GD-MI: **83%** of Greedy MI quality, **6× faster**
 <div class="col">
 
 **MaxVar** (blue dots)
-- Clusters at boundaries
-- Redundant placements
-- Ignores existing sensors
+- Optimizes for single-point uncertainty
+- Doesn't consider target region
 
 **GD-MI** (red dots)
-- Spreads for coverage
-- Non-redundant
-- Complements existing network
+- Optimizes for entire target region
+- Maximizes information gain
 
-*MI objective naturally avoids redundancy*
+*MI objective guides placement for maximum coverage*
 
 </div>
 
