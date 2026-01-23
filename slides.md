@@ -128,7 +128,13 @@ IIT Gandhinagar · AAAI 2026 · AI for Social Impact
 
 # Current Air Quality Monitoring in India
 
-![width:550px center](assets/images/india_pm_with_stations.png)
+<div class="cols">
+<div class="col">
+
+<img src="assets/images/india_pm_with_stations.png" style="max-height:400px;" />
+
+</div>
+<div class="col">
 
 | Metric | Value |
 |:-------|------:|
@@ -136,6 +142,11 @@ IIT Gandhinagar · AAAI 2026 · AI for Social Impact
 | Population | 1.4 billion |
 | People per station | **2.3 million** |
 | Area per station | **5,400 km²** |
+
+> **Takeaway:** Severely under-monitored for a country of this size and pollution levels
+
+</div>
+</div>
 
 ---
 
@@ -180,22 +191,6 @@ Given a **limited budget** of $k$ new sensors:
 **Where should we place them?**
 
 > Goal: Maximize information about the **entire** region
-
----
-
-# Our Contributions
-
-1. **GD-MI** — First gradient-based approach to MI-optimal sensor placement
-   - Continuous optimization instead of discrete search
-   - Runtime **independent of candidate pool size**
-
-2. **Scalability** — Enables continental-scale deployment
-   - Greedy MI: infeasible at $n > 1,000$
-   - GD-MI: runs in minutes for $n = 20,000+$
-
-3. **Validation** — Comprehensive experiments on India air quality
-   - Matches Greedy MI quality where tractable
-   - **4% improvement** over baselines at national scale
 
 ---
 
@@ -264,10 +259,9 @@ $$\underbrace{\color{#00a651}{x^*}}_{\text{best location}} = \arg\max_{x \,\in\,
 
 Repeat $k$ times, each time adding the selected sensor to context.
 
-| Pros | Cons |
-|:-----|:-----|
-| Fast: $O(k)$ | Doesn't maximize information gain |
-| Intuitive | with minimum number of sensors |
+**Pros:** Fast $O(k)$, intuitive
+
+**Cons:** Doesn't maximize information gain with minimum sensors
 
 ---
 
@@ -316,6 +310,22 @@ $$\color{#00a651}{x^*} = \arg\max_{x \in \color{#00a651}{X_{\text{pool}}}} I(\co
 **MaxVar** scales but gives poor quality
 
 Can we get **both**?
+
+---
+
+# Our Contributions
+
+1. **GD-MI** — First gradient-based approach to MI-optimal sensor placement
+   - Continuous optimization instead of discrete search
+   - Runtime **independent of candidate pool size**
+
+2. **Scalability** — Enables continental-scale deployment
+   - Greedy MI: infeasible at $n > 1,000$
+   - GD-MI: runs in minutes for $n = 20,000+$
+
+3. **Validation** — Comprehensive experiments on India air quality
+   - Matches Greedy MI quality where tractable
+   - **4% better** than baselines at national scale
 
 ---
 
