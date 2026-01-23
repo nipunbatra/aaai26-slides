@@ -86,10 +86,12 @@ style: |
   .col { flex: 1; }
   .col.small { flex: 0.8; }
   .col img { max-width: 100%; height: auto; }
-  .author-row { display: flex; justify-content: center; gap: 2.5rem; margin: 1.2rem 0; }
+  .author-row { display: flex; justify-content: center; gap: 2rem; margin: 1rem 0; }
   .author { text-align: center; }
-  .author img { width: 120px !important; height: 120px !important; border-radius: 50%; object-fit: cover; border: 4px solid rgba(255,255,255,0.8); }
-  .author-name { font-size: 0.75em; margin-top: 0.5rem; }
+  .author img { width: 90px !important; height: 90px !important; border-radius: 50%; object-fit: cover; background: white; }
+  .author-name { font-size: 0.65em; margin-top: 0.3rem; }
+  .logo-row { display: flex; justify-content: center; align-items: center; gap: 2rem; margin-top: 1rem; }
+  .logo-row img { height: 50px !important; width: auto !important; }
 ---
 
 <!-- _class: lead -->
@@ -112,7 +114,12 @@ style: |
 </div>
 </div>
 
-IIT Gandhinagar · AAAI 2026 · AI for Social Impact
+AAAI 2026 · AI for Social Impact Track
+
+<div class="logo-row">
+<img src="assets/images/iitgn_logo.png" />
+<img src="assets/images/logo_colored.svg" />
+</div>
 
 ---
 
