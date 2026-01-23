@@ -345,21 +345,21 @@ GD-MI: Follow gradient
 
 # GD-MI: How It Works
 
-$$\min_{\color{#00a651}{X_{\text{new}}}} \; \mathbb{E}_{x_t \in \color{#4a90d9}{X_t}}\Big[\text{Var}(\color{#4a90d9}{y_t} \mid X_c, Y_c, \color{#00a651}{X_{\text{new}}}, \hat{Y}_{\text{new}})\Big]$$
+**What we optimize:** $k$ sensor locations, each a (lat, lon) pair
 
-**In plain English:**
+$$\color{#00a651}{X_{\text{new}}} = \{(lat_1, lon_1), \ldots, (lat_k, lon_k)\}$$
 
-*"Find sensor positions that minimize remaining uncertainty over the <span class="blue">target region</span>"*
+**Objective:** Minimize average uncertainty over <span class="blue">target region</span>
 
-| Step | What happens |
-|:----:|:-------------|
-| 1 | Initialize <span class="green">$X_{\text{new}}$</span> randomly in valid region |
-| 2 | Predict $\hat{Y}_{\text{new}}$ at proposed locations |
-| 3 | Compute uncertainty over <span class="blue">$X_t$</span> (target) |
-| 4 | Backpropagate → update <span class="green">$X_{\text{new}}$</span> |
-| 5 | Repeat until convergence |
+$$\mathcal{L} = \mathbb{E}_{x_t \in \color{#4a90d9}{X_t}}\Big[\text{Var}(\color{#4a90d9}{y_t} \mid X_c, Y_c, \color{#00a651}{X_{\text{new}}})\Big]$$
 
-> **Key:** Model parameters are **frozen** — only sensor locations <span class="green">$X_{\text{new}}$</span> are optimized
+**Algorithm:**
+1. Initialize $k$ locations randomly
+2. Forward pass: predict uncertainty at target locations
+3. Backward pass: $\nabla_{\color{#00a651}{X_{\text{new}}}} \mathcal{L}$ → update coordinates
+4. Repeat until convergence
+
+> **Key:** Model is **frozen** — only the $2k$ coordinates are learned
 
 ---
 
