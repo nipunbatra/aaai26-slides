@@ -570,9 +570,9 @@ https://sustainability-lab.github.io
 
 ---
 
-# Join Us in Shaping a Sustainable Future
+# Join Our Research
 
-![width:950px center](assets/images/join_us_slide_20260123_123313.png)
+![width:900px center](assets/images/join_us_v2_20260123_230454.png)
 
 ---
 
