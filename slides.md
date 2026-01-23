@@ -343,24 +343,6 @@ GD-MI: Follow gradient
 
 ---
 
-# Method Comparison: The Full Picture
-
-| Method | Objective | How | Complexity | Scales? |
-|:-------|:----------|:----|:-----------|:-------:|
-| **Random** | — | Uniform sampling | $O(1)$ | ✓ |
-| **MaxVar** | Max uncertainty | Greedy, 1 point | $O(k)$ | ✓ |
-| **Greedy MI** | Max MI | Greedy, search all | $O(n \cdot k)$ | ❌ |
-| **GD-MI** | Max MI | Gradient descent | $O(I)$ | ✓ |
-
-<br/>
-
-| | Random | MaxVar | Greedy MI | GD-MI |
-|:--|:------:|:------:|:---------:|:-----:|
-| Considers interactions | ❌ | ❌ | ✓ | ✓ |
-| Scales to India | ✓ | ✓ | ❌ | ✓ |
-
----
-
 # GD-MI: How It Works
 
 $$\min_{\color{#00a651}{X_{\text{new}}}} \; \mathbb{E}_{x_t \in \color{#4a90d9}{X_t}}\Big[\text{Var}(\color{#4a90d9}{y_t} \mid X_c, Y_c, \color{#00a651}{X_{\text{new}}}, \hat{Y}_{\text{new}})\Big]$$
