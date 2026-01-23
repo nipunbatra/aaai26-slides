@@ -378,7 +378,7 @@ GD-MI needs a model that provides:
 
 ---
 
-# Surrogate Model: TNP-D
+# Surrogate Model: Transformer Neural Process (TNP-D)
 
 <div class="cols">
 
@@ -390,17 +390,15 @@ GD-MI needs a model that provides:
 
 <div class="col">
 
-**Transformer Neural Process**
-
 - Predicts PM$_{2.5}$ **and** uncertainty
 - Fully differentiable
 - Fast parallel inference
 
 | Model | RMSE ↓ | NLL ↓ |
 |-------|-------:|------:|
-| GP | 5.16 | -0.19 |
-| ConvGNP | 5.31 | -0.30 |
-| **TNP-D** | **4.90** | **-0.44** |
+| Gaussian Process | 5.16 | -0.19 |
+| Convolutional GNP | 5.31 | -0.30 |
+| **Transformer NP** | **4.90** | **-0.44** |
 
 </div>
 
