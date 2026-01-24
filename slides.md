@@ -91,7 +91,7 @@ style: |
   .author img { width: 90px !important; height: 90px !important; border-radius: 50%; object-fit: cover; background: white; }
   .author-name { font-size: 0.65em; margin-top: 0.3rem; }
   .logo-row { display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-top: 0.8rem; background: rgba(255,255,255,0.95); padding: 0.5rem 1.5rem; border-radius: 8px; }
-  .logo-row img { height: 45px !important; width: auto !important; }
+  .logo-row img { height: 55px !important; width: auto !important; }
 ---
 
 <!-- _class: lead -->
@@ -647,14 +647,7 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 PhD · Postdoc · RA · Intern
 
-**Supported By**
-
-<div style="display:flex; gap:0.8rem; align-items:center; margin-top:0.5rem; flex-wrap:wrap;">
-<span style="background:#4285f4; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Google</span>
-<span style="background:#00a4ef; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Microsoft</span>
-<span style="background:#76b900; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">NVIDIA</span>
-<span style="background:#1ba0d7; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Cisco</span>
-</div>
+**Supported By:** Google · Microsoft · NVIDIA · Cisco
 
 **Published at:** NeurIPS · AAAI · UbiComp · KDD
 
