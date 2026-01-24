@@ -382,17 +382,15 @@ GD-MI: Follow gradient
 
 $$\color{#00a651}{X_{\text{new}}} = \{(lat_1, lon_1), \ldots, (lat_k, lon_k)\}$$
 
-**Objective:** Minimize average uncertainty over <span class="blue">target region</span>
+**Objective:** Minimize average variance over <span class="blue">target region</span>
 
-$$\mathcal{L} = \mathbb{E}_{x_t \in \color{#4a90d9}{X_t}}\Big[\text{Var}(\color{#4a90d9}{y_t} \mid X_c, Y_c, \color{#00a651}{X_{\text{new}}})\Big]$$
+$$\mathcal{L} = \frac{1}{|X_t|} \sum_{x_t \in \color{#4a90d9}{X_t}} \sigma^2\Big(x_t \mid X_c, Y_c, \color{#00a651}{X_{\text{new}}}, \hat{Y}_{\text{new}}\Big)$$
 
-**Algorithm:**
-1. Initialize $k$ locations randomly
-2. Forward pass: predict uncertainty at target locations
-3. Backward pass: $\nabla_{\color{#00a651}{X_{\text{new}}}} \mathcal{L}$ → update coordinates
-4. Repeat until convergence
+where $\hat{Y}_{\text{new}} = \mu(X_{\text{new}} \mid X_c, Y_c)$ — predicted values at proposed locations
 
-> **Key:** Model is **frozen** — only the $2k$ coordinates are learned
+**Algorithm:** Initialize → Forward (get $\sigma^2$) → Backward ($\nabla_{X_{\text{new}}} \mathcal{L}$) → Update → Repeat
+
+> **Key:** Model is **frozen** — only the $2k$ coordinates are optimized
 
 ---
 
