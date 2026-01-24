@@ -158,23 +158,26 @@ AAAI 2026 · AI for Social Impact Track
 
 ---
 
-# Problem 1: Coverage Only in Urban Areas
+# The Coverage Gap
 
-![width:600px center](assets/images/india_urban_only_coverage.png)
+<div class="cols">
+<div class="col">
 
-Sensors clustered in **Delhi, Mumbai, Chennai, Bangalore, Kolkata**
+<img src="assets/images/india_urban_only_coverage.png" style="max-height:340px;" />
 
-Rural and semi-urban India remains **invisible**
+</div>
+<div class="col">
 
----
+**Urban-only coverage**
+- Sensors in Delhi, Mumbai, Chennai, Bangalore, Kolkata
+- Rural India remains **invisible**
 
-# Problem 2: Vast Population Exposed Without Data
-
-![width:600px center](assets/images/population_exposure_gap.png)
-
-**Hundreds of millions** live in unmonitored regions
+**Hundreds of millions** unmonitored
 
 No data → No policy → No protection
+
+</div>
+</div>
 
 ---
 
@@ -556,33 +559,33 @@ Better health outcomes (targeted interventions)
 
 ---
 
-# Current Limitation: Equity
+# Limitations & Future Work
 
-We minimize **average** variance
+<div class="cols">
+<div class="col">
 
-But pollution burden is **not uniform**
+**Current Limitation**
 
-> Optimizing for uncertainty ≠ Optimizing for fairness
+We minimize **average** variance, but pollution burden is **not uniform**
 
----
+**Equity-Aware Placement:**
+$$\mathcal{L}_{\text{fair}} = \mathbb{E}\Big[w(x_t) \cdot \text{Var}(y_t)\Big]$$
 
-# Future: Equity-Aware Placement
+Weight by population, pollution, health vulnerability
 
-![width:700px center](assets/images/equity_factors_2x2_20260123_121828.png)
+</div>
+<div class="col">
 
-$$\mathcal{L}_{\text{fair}} = \mathbb{E}\Big[w(\color{#4a90d9}{x_t}) \cdot \text{Var}(\color{#4a90d9}{y_t})\Big]$$
+**Beyond Static Sensors**
 
-Weight $w(\cdot)$ by different factors — **same GD-MI framework, different objectives!**
+- **Low-cost sensors:** Dense affordable networks
+- **Mobile sensing:** Dynamic routing optimization
+- **Multi-pollutant:** Joint PM₂.₅, NO₂, O₃
 
----
+Same GD-MI framework, different objectives!
 
-# Future: Beyond Static Sensors
-
-![width:800px center](assets/images/future_directions_v2_20260122_183752.png)
-
-| Low-Cost Sensors | Mobile | Multi-pollutant |
-|:----------------:|:------:|:---------------:|
-| Dense affordable networks | Dynamic routing | Joint optimization |
+</div>
+</div>
 
 ---
 
@@ -605,51 +608,36 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 ---
 
-<!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Thank You
+# Thank You — Join Our Research!
 
-<div class="cols" style="gap:4rem;">
-<div class="col" style="text-align:center;">
-<img src="assets/images/qr_paper.png" style="width:150px;" />
-<div style="font-size:0.7em;">Paper Page</div>
+<div class="cols">
+<div class="col">
+
+<div style="display:flex; gap:2rem; margin-bottom:1rem;">
+<div style="text-align:center;">
+<img src="assets/images/qr_paper.png" style="width:120px;" />
+<div style="font-size:0.65em;">Paper</div>
 </div>
-<div class="col" style="text-align:center;">
-<img src="assets/images/qr_lab.png" style="width:150px;" />
-<div style="font-size:0.7em;">Lab Website</div>
+<div style="text-align:center;">
+<img src="assets/images/qr_lab.png" style="width:120px;" />
+<div style="font-size:0.65em;">Lab</div>
 </div>
 </div>
 
 **Contact:** {patel_zeel, vinayak.rana, nipun.batra}@iitgn.ac.in
 
----
-
-# Join Our Research
-
-<div class="cols">
-<div class="col">
-
-**Who Should Apply**
-- Interest in ML + sustainability impact
-- Background in ML, CV, time-series
-- Motivation to publish at top venues
-
-**Where Alumni Go**
-- Google DeepMind, Microsoft Research
-- PhD: CMU, Caltech, ETH Zurich
-- Fulbright, PMRF, MSR PhD Award
-
 </div>
 <div class="col">
 
-**Positions Open**
+**Positions:** PhD · Postdoc · RA · Intern
 
-PhD · Postdoc · RA · Intern
+**Alumni → ** Google DeepMind, MSR, CMU, Caltech, ETH
 
-**Supported By:** Google · Microsoft · NVIDIA · Cisco
+**Supported by:** Google · Microsoft · NVIDIA · Cisco
 
-**Published at:** NeurIPS · AAAI · UbiComp · KDD
+**Venues:** NeurIPS · AAAI · UbiComp · KDD
 
 </div>
 </div>
