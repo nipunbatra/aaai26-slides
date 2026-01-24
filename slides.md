@@ -92,6 +92,7 @@ style: |
   .author-name { font-size: 0.65em; margin-top: 0.3rem; }
   .logo-row { display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-top: 0.8rem; background: rgba(255,255,255,0.95); padding: 0.5rem 1.5rem; border-radius: 8px; }
   .logo-row img { height: 55px !important; width: auto !important; }
+  .qr img { width: 70px !important; height: 70px !important; }
 ---
 
 <!-- _class: lead -->
@@ -600,12 +601,12 @@ Same GD-MI framework, different objectives!
 <div class="col">
 
 <div style="display:flex; gap:1.5rem; margin-bottom:0.8rem;">
-<div style="text-align:center;">
-<img src="assets/images/qr_paper.png" style="width:80px;" />
+<div class="qr" style="text-align:center;">
+<img src="assets/images/qr_paper.png" />
 <div style="font-size:0.6em;">Paper</div>
 </div>
-<div style="text-align:center;">
-<img src="assets/images/qr_lab.png" style="width:80px;" />
+<div class="qr" style="text-align:center;">
+<img src="assets/images/qr_lab.png" />
 <div style="font-size:0.6em;">Lab</div>
 </div>
 </div>
