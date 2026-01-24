@@ -593,40 +593,27 @@ Same GD-MI framework, different objectives!
 
 ---
 
+<!-- _class: lead -->
 <!-- _paginate: false -->
 
-# Thank You — Join Our Research!
+# Thank You!
 
-<div class="cols">
-<div class="col">
-
-<div style="display:flex; gap:1.5rem; margin-bottom:0.8rem;">
+<div style="display:flex; justify-content:center; gap:3rem; margin:1.5rem 0;">
 <div class="qr" style="text-align:center;">
 <img src="assets/images/qr_paper.png" />
-<div style="font-size:0.6em;">Paper</div>
+<div style="font-size:0.7em; margin-top:0.3rem;">Paper</div>
 </div>
 <div class="qr" style="text-align:center;">
 <img src="assets/images/qr_lab.png" />
-<div style="font-size:0.6em;">Lab</div>
+<div style="font-size:0.7em; margin-top:0.3rem;">Lab</div>
 </div>
 </div>
 
-**Who Should Apply:** ML background, sustainability interest, top-venue ambition
+**Sustainability Lab @ IIT Gandhinagar**
 
-**Contact:** {patel_zeel, vinayak.rana, nipun.batra}@iitgn.ac.in
+Positions: PhD · Postdoc · RA · Intern
 
-</div>
-<div class="col">
-
-| | |
-|:--|:--|
-| **Positions** | PhD · Postdoc · RA · Intern |
-| **Alumni** | DeepMind, MSR, CMU, Caltech, ETH |
-| **Sponsors** | Google · Microsoft · NVIDIA · Cisco |
-| **Venues** | NeurIPS · AAAI · UbiComp · KDD |
-
-</div>
-</div>
+{patel_zeel, vinayak.rana, nipun.batra}@iitgn.ac.in
 
 ---
 
