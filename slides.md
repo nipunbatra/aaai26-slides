@@ -304,7 +304,11 @@ $$I(\color{#4a90d9}{Y_t}; Y_{\text{new}} \mid X_c, Y_c) = \underbrace{H(\color{#
 
 $$\max_{\color{#00a651}{X_{\text{new}}}} I \;\equiv\; \min_{\color{#00a651}{X_{\text{new}}}} H(\color{#4a90d9}{Y_t} \mid \text{all data})$$
 
-**For Gaussian outputs** (GP/Neural Process): $H \propto \log \sigma^2$ → **minimize variance!**
+**For Gaussian outputs** (GP/Neural Process): $H \propto \log \sigma^2$
+
+**Key difference from MaxVar:**
+- MaxVar: variance **at candidate point** — *"where am I uncertain?"*
+- MI: variance **over target region** — *"what reduces uncertainty everywhere?"*
 
 **Problem:** Exact optimization requires searching $\binom{n}{k}$ subsets — combinatorially explosive!
 
