@@ -635,22 +635,31 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 - Background in ML, CV, time-series
 - Motivation to publish at top venues
 
-**Published at:** NeurIPS, AAAI, UbiComp, KDD
+**Where Alumni Go**
+- Google DeepMind, Microsoft Research
+- PhD: CMU, Caltech, ETH Zurich
+- Fulbright, PMRF, MSR PhD Award
 
 </div>
 <div class="col">
 
-**Where Alumni Go**
-- Google DeepMind, Microsoft Research
-- PhD: CMU, Caltech, ETH Zurich, UCSD
-- Fulbright, PMRF, MSR PhD Award
+**Positions Open**
 
-**Supported by:** Google, Microsoft, NVIDIA, Cisco
+PhD · Postdoc · RA · Intern
+
+**Supported By**
+
+<div style="display:flex; gap:1rem; align-items:center; margin-top:0.5rem;">
+<img src="assets/images/sponsors/google.png" style="height:30px;" />
+<img src="assets/images/sponsors/microsoft.png" style="height:30px;" />
+<img src="assets/images/sponsors/nvidia.png" style="height:30px;" />
+<img src="assets/images/sponsors/cisco.png" style="height:30px;" />
+</div>
+
+**Published at:** NeurIPS · AAAI · UbiComp · KDD
 
 </div>
 </div>
-
-**Positions:** PhD Scholars · Postdocs · Research Associates · Interns
 
 ---
 
