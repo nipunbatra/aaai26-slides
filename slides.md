@@ -586,11 +586,9 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 ---
 
-# Sustainability Lab @ IIT Gandhinagar
+<!-- _paginate: false -->
 
-![width:950px center](assets/images/sustainability_lab_prompt_subtitles_generated_20251217_162815.png)
-
-https://sustainability-lab.github.io
+![bg contain](assets/images/sustainability_lab_prompt_subtitles_generated_20251217_162815.png)
 
 ---
 
