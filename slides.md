@@ -194,16 +194,17 @@ India has **33× more people per station** than USA — significant opportunity 
 
 # Why Not Just Add More Sensors?
 
-| Cost Component | Regulatory-Grade Station |
-|:---------------|-------------------------:|
-| Equipment | $15,000 - $40,000 |
-| Installation | $5,000 - $10,000 |
-| Annual maintenance | $3,000 - $5,000 |
-| **Total (5-year)** | **$35,000 - $75,000** |
+**Full CPCB CAAQMS** (BAM + gases + shelter): **₹2-3 crore+** per station
 
-Adding **1,000 stations** → **$35-75 million** investment
+| | Cost |
+|:--|--:|
+| 1 station | ₹2-3 crore (~$250K) |
+| 100 stations | ₹200-300 crore |
+| 1,000 stations | ₹2,000-3,000 crore |
 
-> **Smart placement is critical** — every sensor must count!
+Current CPCB network: ~600 stations
+
+> **Smart placement is critical** — every sensor must maximize value!
 
 ---
 
