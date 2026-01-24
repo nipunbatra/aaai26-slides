@@ -178,7 +178,7 @@ No data → No policy → No protection
 
 ---
 
-# Problem 3: India Lags Behind
+# Global Comparison: Room for Growth
 
 | Country | Stations ↑ | People/Station ↓ | Stations/1000 km² ↑ |
 |---------|----------:|--------------:|-----------------:|
@@ -188,7 +188,22 @@ No data → No policy → No protection
 | UK | 300 | 223K | 1.23 |
 | **India** | **611** | **2,290K** | **0.19** |
 
-India: **33x worse** people-coverage than USA, **7x lower** area density than Germany
+India has **33× more people per station** than USA — significant opportunity for expansion
+
+---
+
+# Why Not Just Add More Sensors?
+
+| Cost Component | Regulatory-Grade Station |
+|:---------------|-------------------------:|
+| Equipment | $15,000 - $40,000 |
+| Installation | $5,000 - $10,000 |
+| Annual maintenance | $3,000 - $5,000 |
+| **Total (5-year)** | **$35,000 - $75,000** |
+
+Adding **1,000 stations** → **$35-75 million** investment
+
+> **Smart placement is critical** — every sensor must count!
 
 ---
 
