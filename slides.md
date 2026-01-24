@@ -543,22 +543,6 @@ GD-MI within **0.2 RMSE** of Greedy MI (gold standard)
 
 ---
 
-# Impact: Same Budget, Better Outcomes
-
-**The cascade effect:**
-
-Better placement (GD-MI)
-↓
-Better predictions (lower RMSE)
-↓
-Better pollution maps (policy-ready)
-↓
-Better health outcomes (targeted interventions)
-
-> **4% RMSE improvement** at national scale = **millions** of people better served
-
----
-
 # Limitations & Future Work
 
 <div class="cols">
@@ -615,29 +599,30 @@ Same GD-MI framework, different objectives!
 <div class="cols">
 <div class="col">
 
-<div style="display:flex; gap:2rem; margin-bottom:1rem;">
+<div style="display:flex; gap:1.5rem; margin-bottom:0.8rem;">
 <div style="text-align:center;">
-<img src="assets/images/qr_paper.png" style="width:120px;" />
-<div style="font-size:0.65em;">Paper</div>
+<img src="assets/images/qr_paper.png" style="width:80px;" />
+<div style="font-size:0.6em;">Paper</div>
 </div>
 <div style="text-align:center;">
-<img src="assets/images/qr_lab.png" style="width:120px;" />
-<div style="font-size:0.65em;">Lab</div>
+<img src="assets/images/qr_lab.png" style="width:80px;" />
+<div style="font-size:0.6em;">Lab</div>
 </div>
 </div>
+
+**Who Should Apply:** ML background, sustainability interest, top-venue ambition
 
 **Contact:** {patel_zeel, vinayak.rana, nipun.batra}@iitgn.ac.in
 
 </div>
 <div class="col">
 
-**Positions:** PhD · Postdoc · RA · Intern
-
-**Alumni → ** Google DeepMind, MSR, CMU, Caltech, ETH
-
-**Supported by:** Google · Microsoft · NVIDIA · Cisco
-
-**Venues:** NeurIPS · AAAI · UbiComp · KDD
+| | |
+|:--|:--|
+| **Positions** | PhD · Postdoc · RA · Intern |
+| **Alumni** | DeepMind, MSR, CMU, Caltech, ETH |
+| **Sponsors** | Google · Microsoft · NVIDIA · Cisco |
+| **Venues** | NeurIPS · AAAI · UbiComp · KDD |
 
 </div>
 </div>
@@ -647,6 +632,22 @@ Same GD-MI framework, different objectives!
 <!-- _paginate: false -->
 
 # Backup Slides
+
+---
+
+# Impact: Same Budget, Better Outcomes
+
+**The cascade effect:**
+
+Better placement (GD-MI)
+↓
+Better predictions (lower RMSE)
+↓
+Better pollution maps (policy-ready)
+↓
+Better health outcomes (targeted interventions)
+
+> **4% RMSE improvement** at national scale = **millions** of people better served
 
 ---
 
