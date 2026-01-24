@@ -90,8 +90,8 @@ style: |
   .author { text-align: center; }
   .author img { width: 90px !important; height: 90px !important; border-radius: 50%; object-fit: cover; background: white; }
   .author-name { font-size: 0.65em; margin-top: 0.3rem; }
-  .logo-row { display: flex; justify-content: center; align-items: center; gap: 2rem; margin-top: 1rem; }
-  .logo-row img { height: 50px !important; width: auto !important; }
+  .logo-row { display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-top: 0.8rem; background: rgba(255,255,255,0.95); padding: 0.5rem 1.5rem; border-radius: 8px; }
+  .logo-row img { height: 45px !important; width: auto !important; }
 ---
 
 <!-- _class: lead -->
@@ -117,6 +117,7 @@ style: |
 AAAI 2026 · AI for Social Impact Track
 
 <div class="logo-row">
+<img src="assets/images/aaai_logo.png" />
 <img src="assets/images/iitgn_logo.png" />
 <img src="assets/images/logo_colored.svg" />
 </div>
