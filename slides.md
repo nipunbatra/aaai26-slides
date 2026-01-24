@@ -592,12 +592,6 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 ---
 
-# Join Our Research
-
-![width:900px center](assets/images/join_us_v2_20260123_230454.png)
-
----
-
 # Main Takeaways
 
 1. **GD-MI** = First gradient-based MI maximization for sensor placement
@@ -616,13 +610,47 @@ Weight $w(\cdot)$ by different factors — **same GD-MI framework, different obj
 
 # Thank You
 
-![width:450px center](assets/images/quality_20_india.png)
-
-**Paper:** AAAI 2026 — AI for Social Impact Track
-
-**Code:** github.com/sustainability-lab/gdmi-aqs
+<div class="cols" style="gap:4rem;">
+<div class="col" style="text-align:center;">
+<img src="assets/images/qr_paper.png" style="width:150px;" />
+<div style="font-size:0.7em;">Paper Page</div>
+</div>
+<div class="col" style="text-align:center;">
+<img src="assets/images/qr_lab.png" style="width:150px;" />
+<div style="font-size:0.7em;">Lab Website</div>
+</div>
+</div>
 
 **Contact:** {patel_zeel, vinayak.rana, nipun.batra}@iitgn.ac.in
+
+---
+
+# Join Our Research
+
+<div class="cols">
+<div class="col">
+
+**Who Should Apply**
+- Interest in ML + sustainability impact
+- Background in ML, CV, time-series
+- Motivation to publish at top venues
+
+**Published at:** NeurIPS, AAAI, UbiComp, KDD
+
+</div>
+<div class="col">
+
+**Where Alumni Go**
+- Google DeepMind, Microsoft Research
+- PhD: CMU, Caltech, ETH Zurich, UCSD
+- Fulbright, PMRF, MSR PhD Award
+
+**Supported by:** Google, Microsoft, NVIDIA, Cisco
+
+</div>
+</div>
+
+**Positions:** PhD Scholars · Postdocs · Research Associates · Interns
 
 ---
 
