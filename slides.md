@@ -468,7 +468,7 @@ Does GD-MI actually work?
 | **GD-MI** | **5.8** |
 | Greedy MI | 5.6 |
 
-GD-MI achieves **83%** of Greedy MI quality!
+GD-MI within **0.2 RMSE** of Greedy MI (gold standard)
 
 </div>
 
