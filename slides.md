@@ -649,11 +649,11 @@ PhD · Postdoc · RA · Intern
 
 **Supported By**
 
-<div style="display:flex; gap:1rem; align-items:center; margin-top:0.5rem;">
-<img src="assets/images/sponsors/google.png" style="height:30px;" />
-<img src="assets/images/sponsors/microsoft.png" style="height:30px;" />
-<img src="assets/images/sponsors/nvidia.png" style="height:30px;" />
-<img src="assets/images/sponsors/cisco.png" style="height:30px;" />
+<div style="display:flex; gap:0.8rem; align-items:center; margin-top:0.5rem; flex-wrap:wrap;">
+<span style="background:#4285f4; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Google</span>
+<span style="background:#00a4ef; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Microsoft</span>
+<span style="background:#76b900; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">NVIDIA</span>
+<span style="background:#1ba0d7; color:white; padding:4px 10px; border-radius:4px; font-size:0.75em; font-weight:500;">Cisco</span>
 </div>
 
 **Published at:** NeurIPS · AAAI · UbiComp · KDD
