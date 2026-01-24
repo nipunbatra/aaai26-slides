@@ -196,11 +196,11 @@ India has **33× more people per station** than USA — significant opportunity 
 
 **Full CPCB CAAQMS** (BAM + gases + shelter): **₹2-3 crore+** per station
 
-| | Cost |
-|:--|--:|
-| 1 station | ₹2-3 crore (~$250K) |
-| 100 stations | ₹200-300 crore |
-| 1,000 stations | ₹2,000-3,000 crore |
+| | Cost (₹) | Cost ($) |
+|:--|--:|--:|
+| 1 station | ₹2-3 crore | $250-350K |
+| 100 stations | ₹200-300 crore | $25-35M |
+| 1,000 stations | ₹2,000-3,000 crore | $250-350M |
 
 Current CPCB network: ~600 stations
 
